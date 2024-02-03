@@ -2,6 +2,8 @@
 
 Welcome to my personal website repository! 🚀 Here, you'll find the source code for my portfolio. As a passionate developer, I use this space to showcase my projects, share insights, and connect with the tech community.
 
+🌐 [Visit my website]()
+
 ## What's Inside?
 
 - **Portfolio:** Explore my latest projects and learn about my skills and experiences.
@@ -10,4 +12,30 @@ Welcome to my personal website repository! 🚀 Here, you'll find the source cod
 
 Feel free to fork this repository if you find anything interesting or want to collaborate. I appreciate feedback and contributions!
 
-🌐 [Visit my website]()
+## Getting Started
+
+1. **Clone the Repository:**
+   ```
+   git clone https://github.com/siddhantranjan/siddhant-ranjan
+
+2. **Install Dependencies:**
+   ```
+   cd siddhant-ranjan
+   npm install
+   ```
+
+3. **Set up Environment Variables:**
+    *Envirnoment Vars Template:*
+    ```
+    ```
+
+4. **Run in Development Mode:**
+   ```
+   npm run dev
+   ```
+
+5. **Run in Production Mode:**
+   ```bash
+   npm run build
+   npm run start
+   ```
