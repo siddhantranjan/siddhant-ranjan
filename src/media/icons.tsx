@@ -133,3 +133,19 @@ export const Android = () => {
         </>
     )
 }
+
+export const GraduationCap = () => {
+	return (
+		<>
+		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FF91A4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-graduation-cap"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+		</>
+	)
+}
+
+export const Work = () => {
+	return (
+		<>
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FF91A4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-briefcase"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+		</>
+	)
+}
