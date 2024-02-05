@@ -10,10 +10,11 @@ const ServiceSection = () => {
     return (
         <section id="service" className="py-4 ">
             <div className="w-full flex flex-col items-center">
-                <div className="text-center w-full">
+                <div className="w-full text-center mt-16 flex flex-col items-center">
                     <h2 className="text-5xl my-5 text-lighter">My <span className="text-tertiary">Services</span></h2>
-                    <p className="tracking-wide text-base">Lorem Ipsum is simply dummy text of the printing and typesetting<br /> industry. Lorem Ipsum standard dummy text.</p>
-                    <div className="flex items-center justify-center my-5">
+                    <p className="tracking-wide text-base w-1/3">
+                    Uncover a spectrum of tailored services designed to enhance and fulfill your unique needs in the Service section.</p>
+                    <div className="w-full flex items-center justify-center my-5">
                         <hr className="h-px mx-2 bg-tertiary border-2 border-tertiary w-1/6" />
                     </div>
                 </div>
@@ -27,7 +28,7 @@ const ServiceSection = () => {
                                 </div>
                             </div>
                             <h4 className="text-lighter capitalize my-4 text-xl">FrontEnd Developer</h4>
-                            <p className="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p className="text-base">I focus in front-end development, using modern technologies like as Next.js and Tailwind CSS to create intuitive and visually appealing user experiences. With an aptitude for jQuery, I improve interactivity and create dynamic, engaging web experiences. Your projects are in capable hands for a modern, efficient, and user-friendly front end.</p>
                         </div>
                         <div ref={elementRef} className={`border border-tertiary py-12 px-8 ${elementIsVisible ? "visible animate__animated animate__fadeInDown" : ""}`}>
                             <div className="w-full flex items-center justify-center ">
@@ -36,7 +37,7 @@ const ServiceSection = () => {
                                 </div>
                             </div>
                             <h4 className="text-lighter capitalize my-4 text-xl">BackEnd Developer</h4>
-                            <p className="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p className="text-base">As a backend developer, I specialize in creating strong and scalable systems that provide smooth server-side functionality for applications. My services include creating efficient APIs, optimizing database structures, and building secure authentication mechanisms, all designed to improve the efficiency of your digital projects.</p>
                         </div>
                         <div ref={elementRef} className={`border border-tertiary py-12 px-8 ${elementIsVisible ? "visible animate__animated animate__fadeInRight" : ""}`}>
                             <div className="w-full flex items-center justify-center ">
@@ -45,7 +46,7 @@ const ServiceSection = () => {
                                 </div>
                             </div>
                             <h4 className="text-lighter capitalize my-4 text-xl">Android Developer</h4>
-                            <p className="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p className="text-base">I'm excited to tackle a variety of projects and difficulties as I start on my Android development adventure. As a new Android developer, I'm dedicated to continual learning, ensuring that your app's needs are handled with excitement and a fresh viewpoint. Let's work together to create new mobile solutions!</p>
                         </div>
                     </div>
                 </div>
