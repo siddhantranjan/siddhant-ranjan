@@ -1,6 +1,6 @@
 'use client'
 
-import { initHeadline } from '@/js/animated-headline'
+import { initHeadline } from '@/jquery-scripts/animated-headline'
 import 'animate.css'
 import { useEffect } from 'react'
 
@@ -24,10 +24,6 @@ const IntroSection = () => {
         });
     }, []);
 
-    const particlesLoaded = async (container: any) => {
-        console.log(container);
-    };
-
 
     useEffect(() => {
         const init = async () => {
@@ -42,7 +38,6 @@ const IntroSection = () => {
             <div id="particles-js" className='-z-10'>
                 {init && <Particles
                     id="tsparticles"
-                    particlesLoaded={particlesLoaded}
                     options={particleJson}
                 />
                 }
