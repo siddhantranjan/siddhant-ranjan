@@ -52,7 +52,7 @@ const IntroSection = () => {
                         </span>
                     </div>
                     <div className='m-10'>
-                        <a href="#work" className="px-6 py-3 border-2 border-tertiary m-4 rounded-full">View Work</a>
+                        <a href="#portfolio" className="px-6 py-3 border-2 border-tertiary m-4 rounded-full">View Work</a>
                         <a href="#contact" className="px-6 py-3 border-2 border-tertiary m-4 rounded-full js-scroll">Hire Me</a>
                     </div>
                 </div>
