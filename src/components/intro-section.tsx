@@ -34,7 +34,7 @@ const IntroSection = () => {
     }, [])
 
     return (
-        <section id="home" className="h-160 flex items-center justify-center">
+        <section id="home" className="w-full h-160 flex items-center justify-center">
             <div id="particles-js" className='-z-10'>
                 {init && <Particles
                     id="tsparticles"
@@ -42,9 +42,9 @@ const IntroSection = () => {
                 />
                 }
             </div>
-            <div className="w-fit ">
+            <div className="w-fit">
                 <div className="text-lighter flex flex-col items-center justify-center text-center">
-                    <div className="cd-headline clip text-7xl px-4">
+                    <div className="cd-headline h-32 clip text-5xl md:text-7xl px-4">
                         <span className="font-extrabold mx-2 text-center">I Am</span>
                         <span className="cd-words-wrapper font-extrabold mx-2 text-center">
                             <b className="is-visible">Siddhant Ranjan</b>

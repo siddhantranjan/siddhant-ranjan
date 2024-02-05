@@ -9,10 +9,10 @@ import ServiceSection from "@/components/service-section";
 
 export default function Home() {
   return (
-    <main className="text-lighter">
+    <main className="text-lighter w-full max-w-md md:max-w-full">
       <Header />
       <IntroSection />
-      <div className="bg-darker">
+      <div className="bg-darker w-full">
         <AboutSection />
         <ServiceSection />
         <ResumeSection />

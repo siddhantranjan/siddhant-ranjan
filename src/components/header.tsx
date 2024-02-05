@@ -41,7 +41,7 @@ const Header = () => {
                     <a className="text-4xl font-extrabold tracking-wider text-tertiary">Siddhant</a>
                 </div>
 
-                <div className="h-full">
+                <div className="hidden md:block h-full">
                     <nav id="navbar" className="flex justify-center h-full">
                         <ul className="flex items-center justify-center space-x-6 text-base">
                             <li><a href="#home">Home</a></li>
