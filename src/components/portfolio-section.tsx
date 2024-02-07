@@ -7,7 +7,7 @@ const PortfolioSection = () => {
                 <div className="w-full text-center mt-8 flex flex-col items-center">
                     <h2 className="text-5xl my-5 text-lighter">My <span className="text-tertiary">Portfolio</span></h2>
                     <p className="tracking-wide text-base md:w-1/2 lg:w-1/3">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+                    This section presents a showcase of my best work across various disciplines and industries. Get a glimpse of my skills and experience through these select featured projects spanning technology to creative media..</p>
                     <div className="w-full flex items-center justify-center my-5">
                         <hr className="h-px mx-2 bg-tertiary border-2 border-tertiary w-1/6" />
                     </div>
