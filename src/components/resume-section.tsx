@@ -21,7 +21,7 @@ const ResumeSection = () => {
                         <div ref={elementRef} className="w-full md:w-2/3 lg:w-1/2 flex flex-col">
                             <GraduationCap />
                             <h3 className="text-3xl text-lighter">Education:</h3>
-                            <div className={`group mt-8 border-2 border-lighter h-72 lg:h-52 px-8 pt-8 ${elementIsVisible ? "visible animate__animated animate__fadeInLeft" : ""}`}>
+                            <div className={`group mt-8 border-2 border-lighter lg:h-52 px-8 pt-8 ${elementIsVisible ? "visible animate__animated animate__fadeInLeft" : ""}`}>
                                 <div className="">
                                     <strong>2017 - 2021</strong>
                                     <h5 className="text-tertiary my-2 text-xl">Electronics And Communication Engineering</h5>
@@ -31,7 +31,7 @@ const ResumeSection = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className={`group mt-8 border-2 border-lighter h-72 lg:h-52 px-8 pt-8 ${elementIsVisible ? "visible animate__animated animate__fadeInLeft animate__delay-1s" : ""}`}>
+                            <div className={`group mt-8 border-2 border-lighter lg:h-52 px-8 pt-8 ${elementIsVisible ? "visible animate__animated animate__fadeInLeft animate__delay-1s" : ""}`}>
                                 <div className="">
                                     <strong>2014-2016</strong>
                                     <h5 className="text-tertiary my-2 text-xl">High School</h5>
@@ -41,7 +41,7 @@ const ResumeSection = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className={`group mt-8 border-2 border-lighter h-40 px-8 pt-8 ${elementIsVisible ? "visible animate__animated animate__fadeInLeft animate__delay-2s" : ""}`}>
+                            <div className={`group mt-8 border-2 border-lighter lg:h-40 px-8 pt-8 ${elementIsVisible ? "visible animate__animated animate__fadeInLeft animate__delay-2s" : ""}`}>
                                 <div className="">
                                     <strong>2004 - 2014</strong>
                                     <h5 className="text-tertiary my-2 text-xl">Matriculation</h5>
@@ -55,7 +55,7 @@ const ResumeSection = () => {
                         <div className="w-full md:w-2/3 lg:w-1/2 flex flex-col mt-16 lg:mt-0">
                             <Work />
                             <h3 className="text-3xl text-lighter">Experience:</h3>
-                            <div className="h-160">
+                            <div className="lg:h-160">
                                 <div className={`group h-full mt-8 border-2 border-lighter  px-8 pt-8 ${elementIsVisible ? "visible animate__animated animate__fadeInRight" : ""}`}>
                                     <div className="flex flex-col justify-around">
                                         <strong>2021 - Present</strong>

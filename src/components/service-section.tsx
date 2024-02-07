@@ -29,7 +29,7 @@ const ServiceSection = () => {
                             <h4 className="text-lighter capitalize my-4 text-xl">FrontEnd Developer</h4>
                             <p className="text-base">I focus in front-end development, using modern technologies like as Next.js and Tailwind CSS to create intuitive and visually appealing user experiences. With an aptitude for jQuery, I improve interactivity and create dynamic, engaging web experiences. Your projects are in capable hands for a modern, efficient, and user-friendly front end.</p>
                         </div>
-                        <div ref={elementRef} className={`border border-tertiary py-12 px-8 ${elementIsVisible ? "visible animate__animated animate__flipInX" : ""}`}>
+                        <div className={`border border-tertiary py-12 px-8 ${elementIsVisible ? "visible animate__animated animate__flipInX" : ""}`}>
                             <div className="w-full flex items-center justify-center ">
                                 <div className="border p-3 rounded-full">
                                     <Code />
@@ -38,7 +38,7 @@ const ServiceSection = () => {
                             <h4 className="text-lighter capitalize my-4 text-xl">BackEnd Developer</h4>
                             <p className="text-base">As a backend developer, I specialize in creating strong and scalable systems that provide smooth server-side functionality for applications. My services include creating efficient APIs, optimizing database structures, and building secure authentication mechanisms, all designed to improve the efficiency of your digital projects.</p>
                         </div>
-                        <div ref={elementRef} className={`border border-tertiary py-12 px-8 ${elementIsVisible ? "visible animate__animated animate__fadeInRight" : ""}`}>
+                        <div className={`border border-tertiary py-12 px-8 ${elementIsVisible ? "visible animate__animated animate__fadeInRight" : ""}`}>
                             <div className="w-full flex items-center justify-center ">
                                 <div className="border border-tertiary rounded-full">
                                     <Android />
